@@ -1,0 +1,4 @@
+[hosts]
+%{ for ip in test_instance ~}
+${ip}
+%{ endfor ~}

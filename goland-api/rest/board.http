@@ -1,0 +1,16 @@
+###
+@baseUrl = http://localhost:8080
+@boardName = Test2
+
+
+###
+POST {{baseUrl}}/board
+Content-Type: application/json
+
+{
+    "Name": "Test2"
+}
+
+
+### 
+GET {{baseUrl}}/board/ToDoList%20-%20Home

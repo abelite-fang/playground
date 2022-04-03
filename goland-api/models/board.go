@@ -14,3 +14,12 @@ type Board struct {
 	Id   primitive.ObjectID `json:"id,omitempty"`
 	Name string             `json:"name,omitempty" validate:"required"`
 }
+
+type UserRequest struct {
+	Username string `json:"username" validate:"required"`
+}
+
+type UrlRequest struct {
+	OriginUrl string `json:"originUrl,omitempty" validate:"required"`
+	UserId    string `json:"userId,omitempty" validate:"required"`
+}

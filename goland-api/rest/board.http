@@ -1,10 +1,10 @@
 ###
-@baseUrl = http://localhost:8080
+@baseUrl = http://localhost:8080/v1/board
 @boardName = Test2
 
 
 ###
-POST {{baseUrl}}/board
+POST {{baseUrl}}
 Content-Type: application/json
 
 {
@@ -13,4 +13,4 @@ Content-Type: application/json
 
 
 ### 
-GET {{baseUrl}}/board/ToDoList%20-%20Home
+GET {{baseUrl}}/ToDoList%20-%20Home

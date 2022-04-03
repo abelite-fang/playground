@@ -1,0 +1,25 @@
+###
+@baseUrl = http://localhost:8080
+@userId = "A000000000-000000-000000" #ObjectId
+
+@url = "https://www.google.com"
+### 
+
+POST {{baseUrl}}/v1/short
+Content-Type: application/json
+
+{
+    "originUrl": "{{url}}",
+    "userId": "{{userId}}"
+}
+
+
+{
+    "userId": "db.ObejctId",
+    "userName": "string username",
+    "shortId": "db.ObjectId",
+    "shortUrl": "string url",
+    "requestDate": "YYYY/mm/DD hh/mm/ss",
+    "createDate": "YYYY/mm/DD hh/mm/ss",
+    "expireDate": "YYYY/mm/DD hh/mm/ss"
+}

@@ -1,0 +1,15 @@
+###
+@baseUrl = http://localhost:8080/v1/short
+@boardName = Test2
+
+
+
+
+POST {{baseUrl}}
+Content-Type: application/json
+
+{
+    "originUrl": "https://www.google.com",
+    "userId": "A00000-00000-00000"
+}
+

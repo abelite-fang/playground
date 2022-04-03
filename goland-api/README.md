@@ -20,3 +20,8 @@ DevShares
 
 - Gin + Gorm
   https://learnku.com/articles/23548/gingormrouter-quickly-build-crud-restful-api-interface
+
+
+## Project
+- Shortened Url
+- Trello-liked issue tracking
